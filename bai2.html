@@ -1,50 +1,61 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Gallery</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font- awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="bai2.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show image</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="wrapper">
-       <!--anh0-->
         <div class="image">
-            <img src="Image/anh1.jpg" alt="">
+            <img src="./assets/img/img1.jpeg" alt="">
         </div>
-        <!--anh1-->
+        <!-- item image -->
         <div class="image">
-            <img src="Image/anh2.jpg" alt="">
+            <img src="./assets/img/img2.jpeg" alt="">
         </div>
-        <!--anh2-->
+        <!-- item image -->
         <div class="image">
-            <img src="Image/anh3.jpg" alt=""> 
+            <img src="./assets/img/img3.jpeg" alt="">
         </div>
-        <!--anh3-->
+        <!-- item image -->
         <div class="image">
-            <img src="Image/anh4.jpg" alt="">
+            <img src="./assets/img/img4.jpeg" alt="">
         </div>
-        <!--anh4-->
+        <!-- item image -->
         <div class="image">
-            <img src="Image/anh5.jpg" alt="">
+            <img src="./assets/img/img5.jpeg" alt="">
         </div>
-        <!--anh5-->
+        <!-- item image -->
         <div class="image">
-            <img src="Image/anh6.jpg" alt="">
+            <img src="./assets/img/img6.jpeg" alt="">
         </div>
-    </div>   
-    <div class="gallery show">
-        <i class="fa-regular fa-xmark close" style="font-size: 8000px;"></i>
-        <div class="control prev show">
-            <i class="fa-solid fa-chevron-left"></i> 
+        <!-- item image -->
+        <div class="image">
+            <img src="./assets/img/img7.jpeg" alt="">
         </div>
-        <div class="gallery_inner">    
-            <img src="Image/anh6.jpg"  alt="">
+        <!-- item image -->
+        <div class="image">
+            <img src="./assets/img/img8.jpeg" alt="">
         </div>
-        <div class="control right">
-            <i class="fa-solid fa-chevron-right"></i>
+        <!-- item image -->
+    </div>
+
+    <div class="gallery">
+        <i class="fas fa-times close"></i>
+        <div class="gallery-inner">
+            <img src="./assets/img/img8.jpeg" alt="">
+        </div>
+        <div class="control prev">
+            <i class="fas fa-chevron-left"></i>
+        </div>
+        <div class="control next">
+            <i class="fas fa-chevron-right"></i>
         </div>
     </div>
 </body>
+<script src="app.js"></script>
 </html>
